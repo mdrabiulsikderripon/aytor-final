@@ -449,15 +449,17 @@ $('.blog_classic_slider').slick({
 });
 
 // * QUANTITY STARTS HERE
-let plusBtn = document.querySelector('.incrementBtn');
+let incrementBtn = document.querySelector('.incrementBtn');
 let output = document.querySelector('.input-one');
+let decrementBtn = document.querySelector('.decrementBtn');
 
 function incrementValue() {
+    if (output.value >= 100) {
+        return false;
+    }
     output.value = Number(output.value) + 1;
 }
-plusBtn.addEventListener("click", incrementValue);
-
-let decrementBtn = document.querySelector('.decrementBtn');
+incrementBtn.addEventListener("click", incrementValue);
 
 function decrementValue() {
     if (output.value <= 1) {
