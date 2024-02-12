@@ -1621,6 +1621,12 @@
         top: 1px;
     }
     /* NEWSLETTER ENDS HERE */
+    /* NEWSLETTER PAGES STARTS HERE */
+    #newsletter_pages .checkbox_cnt input {
+        position: relative;
+        top: 1px;
+    }
+    /* NEWSLETTER PAGES ENDS HERE */
     /* CHAT FORM STARTS HERE */
     #chatform {
         width: 100%;
