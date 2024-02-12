@@ -1355,7 +1355,11 @@
 
 @media (max-width: 575px) {
     /* INDEX STARTS HERE */
-
+    
+        
+    .iconGroups ul li a .cartNumber {
+        top: 3px;
+    }
     #specialOffer .specialCnt p {
         width: 100%;
     }
