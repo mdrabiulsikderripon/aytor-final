@@ -1583,7 +1583,7 @@
     }
 
     /* CHECKOUT ENDS HERE */
-    /* NEWSLETTER STARTS HERE */
+    /* ERROR PAGE STARTS HERE */
     #error_page {
         height: 310px;
     }
@@ -1610,6 +1610,12 @@
         line-height: 40px;
     }
 
+    /* ERROR PAGE ENDS HERE */
+    /* NEWSLETTER STARTS HERE */
+    #newsletter .checkbox_cnt input {
+        position: relative;
+        top: 1px;
+    }
     /* NEWSLETTER ENDS HERE */
     /* CHAT FORM STARTS HERE */
     #chatform {
