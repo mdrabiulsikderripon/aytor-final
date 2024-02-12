@@ -2154,7 +2154,7 @@ header .right_cnt ul li span:hover {
 }
 
 #team .teamcardslider .cardcnt .latestcard p {
-    width: 267px;
+    width: 100%;
     color: var(--primaryColor);
     font-family: var(--secondaryFont);
     font-size: 16px;
