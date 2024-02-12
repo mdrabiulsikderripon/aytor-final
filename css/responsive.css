@@ -1475,14 +1475,17 @@
 
     #common_footer .myaccount {
         width: 100% !important;
+        padding-left: 0px !important;
     }
 
     #common_footer .support {
         width: 100% !important;
+        padding-left: 0px !important;
     }
 
     #common_footer .shop {
         width: 100% !important;
+        padding-left: 0px !important;
     }
 
     #common_footer .contactus {
