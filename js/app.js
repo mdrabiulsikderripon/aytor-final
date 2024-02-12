@@ -18,7 +18,41 @@ $(document).ready(function () {
         $currentSubmenu.slideToggle();
     });
 
+    // * CUSTOMER SLIDER
+    $('.customerslider').slick({
+        slidesToShow: 1,
+        speed: 500,
+        arrows: false,
+        autoplay: true,
+        dots: true,
+        dotsClass: "cdots",
+                responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 
+    });
+    
     // * INSTAGRAM SLIDER
     
     $('.instagramslider').slick({
@@ -276,40 +310,6 @@ $(function () {
         time: 5000,
     });
 
-    // * CUSTOMER SLIDER
-    $('.customerslider').slick({
-        slidesToShow: 1,
-        speed: 500,
-        arrows: false,
-        autoplay: true,
-        dots: true,
-        dotsClass: "cdots",
-                responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-
-    });
 
     // * SHOP SLIDER
     $('.topslider').slick({
