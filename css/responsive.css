@@ -1371,7 +1371,9 @@
     #homefooter .footerinfo .openingtime span {
         display: block;
     }
-
+    #homefooter .footerwrapper .footerinfo div {
+        padding: 0 7px !important;
+    }
 
     .cosmetics_cnt p {
         width: 100%;
