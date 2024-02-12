@@ -276,40 +276,6 @@ $(function () {
 
     });
 
-    // * INSTAGRAM SLIDER
-    $('.instagramslider').slick({
-        slidesToShow: 6,
-        speed: 500,
-        arrows: false,
-        autoplay: true,
-        dots: true,
-        dotsClass: "imdots",
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-    });
-
     // * SHOP SLIDER
     $('.topslider').slick({
         slidesToShow: 1,
@@ -471,3 +437,39 @@ function decrementValue() {
 decrementBtn.addEventListener("click", decrementValue);
 
 // * QUANTITY ENDS HERE
+
+    // * INSTAGRAM SLIDER
+$(document).ready(function () {
+    $('.instagramslider').slick({
+        slidesToShow: 6,
+        speed: 500,
+        arrows: false,
+        autoplay: true,
+        dots: true,
+        dotsClass: "imdots",
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
+    });
+    });
