@@ -245,7 +245,7 @@ $(function () {
     });
 
     // * COUNTER UP
-    $('.counter').counterUp({
+    $('.counterwrapper').counterUp({
         delay: 10,
         time: 5000,
     });
