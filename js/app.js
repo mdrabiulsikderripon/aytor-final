@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+
     $('.nav-link > span').on('click', function (event) {
         event.preventDefault(); // Prevent the default behavior (e.g., following the link)
         event.stopPropagation(); // Stop the event propagation
@@ -16,12 +22,6 @@ $(document).ready(function () {
 
         // Toggle the submenu associated with the clicked span
         $currentSubmenu.slideToggle();
-    });
-
-        // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
     });
 
     // * TEAM CARD SLIDER
