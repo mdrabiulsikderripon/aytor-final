@@ -18,6 +18,12 @@ $(document).ready(function () {
         $currentSubmenu.slideToggle();
     });
 
+        // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+    
     // * CUSTOMER SLIDER
     $('.customerslider').slick({
         slidesToShow: 1,
@@ -302,12 +308,6 @@ $(function () {
                 }
             }
         ]
-    });
-
-    // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
     });
 
 
