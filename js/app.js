@@ -18,7 +18,13 @@ $(document).ready(function () {
         $currentSubmenu.slideToggle();
     });
 
-        // * LATEST NEWS SLIDER
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+
+    // * LATEST NEWS SLIDER
     $('.latestcardslider').slick({
         slidesToShow: 4,
         speed: 500,
@@ -242,12 +248,6 @@ $(function () {
         $(".hours").text(event.strftime('%H'));
         $(".mins").text(event.strftime('%M'));
         $(".secs").text(event.strftime('%S'));
-    });
-
-    // * COUNTER UP
-    $('.counterwrapper').counterUp({
-        delay: 10,
-        time: 5000,
     });
 
     // * DEAL SLIDER
