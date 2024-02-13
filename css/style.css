@@ -1899,20 +1899,20 @@ header .right_cnt ul li span:hover {
 
 /* ABOUT SHOP ENDS HERE */
 /* COUNTER STARTS HERE */
-#counter {
+#counter_wrapper {
     margin-bottom: 100px;
 }
 
-#counter .counter_box {
+#counter_wrapper .counter_box {
     text-align: center;
 }
 
-#counter .counter_box img {
+#counter_wrapper .counter_box img {
     display: block;
     margin: 0 auto;
 }
 
-#counter .counter_box h3 {
+#counter_wrapper .counter_box h3 {
     color: var(--primaryColor);
     text-align: center;
     font-size: 36px;
@@ -1922,7 +1922,7 @@ header .right_cnt ul li span:hover {
     margin-top: 20px;
 }
 
-#counter .counter_box span {
+#counter_wrapper .counter_box span {
     color: var(--primaryColor);
     text-align: center;
     font-size: 36px;
@@ -1930,7 +1930,7 @@ header .right_cnt ul li span:hover {
     line-height: 46px;
 }
 
-#counter .counter_box p {
+#counter_wrapper .counter_box p {
     color: var(--Paragraph-Color, #444);
     text-align: center;
     font-family: var(--secondaryFont);
