@@ -17,12 +17,6 @@ $(document).ready(function () {
         // Toggle the submenu associated with the clicked span
         $currentSubmenu.slideToggle();
     });
-
-        // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
     
     // * CUSTOMER SLIDER
     $('.customerslider').slick({
@@ -213,6 +207,12 @@ $(function () {
         $(".hours").text(event.strftime('%H'));
         $(".mins").text(event.strftime('%M'));
         $(".secs").text(event.strftime('%S'));
+    });
+
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
     });
 
     // * DEAL SLIDER
