@@ -1,11 +1,5 @@
 $(document).ready(function () {
 
-    // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
-
     $('.nav-link > span').on('click', function (event) {
         event.preventDefault(); // Prevent the default behavior (e.g., following the link)
         event.stopPropagation(); // Stop the event propagation
@@ -412,11 +406,15 @@ $(function () {
             }
         ]
     });
+    
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
 
-})
-
-// * BLOG CLASSIC SLIDER
-$('.blog_classic_slider').slick({
+    // * BLOG CLASSIC SLIDER
+   $('.blog_classic_slider').slick({
     slidesToShow: 1,
     speed: 500,
     prevArrow: ".leftArrow",
@@ -447,6 +445,10 @@ $('.blog_classic_slider').slick({
         }
     ]
 });
+
+});
+
+
 
 // * QUANTITY STARTS HERE
 let incrementBtn = document.querySelector('.incrementBtn');
