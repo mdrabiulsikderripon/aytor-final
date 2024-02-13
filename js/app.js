@@ -122,6 +122,12 @@ $(document).ready(function () {
     ]
     });
 
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+
 });
 
 // * PRELOADER STARTS HERE
@@ -406,15 +412,9 @@ $(function () {
             }
         ]
     });
-    
-    // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
 
     // * BLOG CLASSIC SLIDER
-   $('.blog_classic_slider').slick({
+    $('.blog_classic_slider').slick({
     slidesToShow: 1,
     speed: 500,
     prevArrow: ".leftArrow",
