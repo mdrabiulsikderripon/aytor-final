@@ -59,6 +59,15 @@ $(document).ready(function () {
 });
 
 
+// * COUNTER UP
+$(document).ready(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+});
+
+
 $(function () {
 
     // * TEAM CARD SLIDER
@@ -165,11 +174,6 @@ $(function () {
     ]
     });
 
-    // * COUNTER UP
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
 
     //* MENU FIXED
 
