@@ -443,15 +443,6 @@ $(function () {
     
 });
 
-// * COUNTER UP
-$(document).ready(function () {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
-});
-
-
 // * QUANTITY STARTS HERE
 let incrementBtn = document.querySelector('.incrementBtn');
 let output = document.querySelector('.input-one');
@@ -475,3 +466,12 @@ function decrementValue() {
 decrementBtn.addEventListener("click", decrementValue);
 
 // * QUANTITY ENDS HERE
+
+// * COUNTER UP
+$(document).ready(function () {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
+});
+
