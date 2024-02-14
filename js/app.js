@@ -166,6 +166,11 @@ $(function () {
     ]
     });
 
+    // * COUNTER UP
+    $('.counter').counterUp({
+        delay: 10,
+        time: 5000,
+    });
 
     //* MENU FIXED
 
@@ -466,12 +471,4 @@ function decrementValue() {
 decrementBtn.addEventListener("click", decrementValue);
 
 // * QUANTITY ENDS HERE
-
-// * COUNTER UP
-$(document).ready(function () {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 5000,
-    });
-});
 
